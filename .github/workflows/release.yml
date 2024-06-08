@@ -5,7 +5,8 @@ on:
     # 在指定的远程分支上，发生推送
     branches:
       - master
-
+  workflow_dispatch:
+  
 jobs:
   build:
 
