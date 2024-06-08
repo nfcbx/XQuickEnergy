@@ -5,7 +5,6 @@ on:
     # 在指定的远程分支上，发生推送
     branches:
       - master
-    # 指定文件发生修改
 
 jobs:
   build:
@@ -50,4 +49,3 @@ jobs:
           tag: ${{ github.ref }}
           overwrite: true
           checksums: sha256
-
